@@ -1,0 +1,7 @@
+<view bindtap="clock" class="box">
+<image src="../images/clock.png" style="width:81px;height:81px;" class="photo"/>
+</view>
+
+<view bindtap="memo" class="box">
+<image src="../images/memo.png" style="width:81px;height:81px;" class="photo"/>
+</view>

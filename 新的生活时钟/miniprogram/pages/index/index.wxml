@@ -1,0 +1,30 @@
+
+<view class="box">
+
+<view class="row">
+<text>提醒次数：</text>
+<input class="input" placeholder="每次闹钟重复次数"></input>
+</view>
+
+<view class="row">
+<text>提醒间隔：</text>
+<input class="input" placeholder="每次重复提醒间隔"></input>
+</view>
+
+<button class="button" bindtap="add">add</button>
+<button class="button" bindtap="delete">delete</button>
+
+</view>
+
+
+<view wx:for="{{a}}">
+<view class="box1">
+<picker mode="time"value="{{time}}"data-id="{{b+1}}"start="09:01"end="21:01"bindchange="bindTimeChange">
+<view class="picker">
+设置: {{time}}
+</view>
+</picker>
+</view>
+<view wx:for="{{a}}">{{item}}</view>
+</view>
+<button bindtap="button"  class="button" >确定</button>

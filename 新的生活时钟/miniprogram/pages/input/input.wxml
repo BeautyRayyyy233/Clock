@@ -1,0 +1,5 @@
+<view class='Box'>
+    <textarea class='suggest_text' bindinput="bindText" maxlength='200' placeholder='写下你想说的' placeholder-class='sug_p'></textarea>
+    <text>{{t_length}}/200</text> 
+  </view>
+<button bindtap="button" class="true">发送</button>

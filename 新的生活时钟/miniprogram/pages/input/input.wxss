@@ -1,0 +1,23 @@
+/* pages/input/input.wxss */
+.Box{
+  border: 0px solid black;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 5px 5px 5px gainsboro;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.true{
+ margin-top:25px; 
+width: 50%;
+background-color: rgb(65,149,255);
+border-radius: 100px;
+color: #FFF;
+}
+.care{
+  text-align: center;
+  margin-bottom: 20px;
+  color:silver;
+  }

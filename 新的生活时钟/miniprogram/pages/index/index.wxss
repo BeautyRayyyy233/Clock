@@ -1,0 +1,39 @@
+page{
+background-color: whitesmoke;
+}
+
+.row{
+display:flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+.button{
+margin-top:25px; 
+width: 50%;
+background-color: rgb(65,149,255);
+border-radius: 100px;
+color: #FFF;
+}
+
+.box{
+border:0px;
+margin-top:30%;
+margin-right: 5%;
+margin-left: 5%; 
+box-shadow: 5px 5px 5px gainsboro;
+background: white;
+border-radius: 20px;
+height: 200px; 
+padding:10px;
+}
+.box1{
+border:0px;
+margin-top:30px;
+margin-right: 5%;
+margin-left: 5%; 
+box-shadow: 5px 5px 5px gainsboro;
+background: white;
+border-radius: 20px;
+padding:10px;
+}

@@ -1,0 +1,19 @@
+page{
+background-color: whitesmoke;
+}
+
+.box{
+border-radius: 50%;
+border: 0px solid black;
+margin: 100px auto;
+width: 150px;
+height: 150px;
+text-align: center;
+line-height: 50px;
+animation:linear infinite;
+background-color: white;
+}
+
+.photo{
+margin:30px;
+}

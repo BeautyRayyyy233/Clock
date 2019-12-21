@@ -1,0 +1,36 @@
+/* pages/diary/diary.wxss */
+.times{
+margin-top:25px; 
+width: 50%;
+margin-left: 25%;
+background-color: rgb(65,149,255);
+border-radius: 100px;
+color: #FFF;
+text-align: center;
+font-size: 17px;
+padding:10px;
+}
+
+.header{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.saying{
+margin-top:25px; 
+width: 50%;
+background-color: rgb(65,149,255);
+border-radius: 100px;
+color: #FFF;
+}
+.say{
+    text-align: center;
+  margin-bottom: 20px;
+  color:silver;
+}
+.text{
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}

@@ -1,0 +1,6 @@
+<text class="header">你是否思念那远方的人了？</text>
+<text class="say">用数据来记录你思念那个人的次数</text>
+<button class="times" bindtap="times">想他的次数+1</button>
+<view class="text">{{times}}</view>
+<button class="saying" bindtap="saying">点我</button>
+<view class="say">想对他说些什么吗？</view>
